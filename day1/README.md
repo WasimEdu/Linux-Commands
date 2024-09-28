@@ -33,3 +33,29 @@
 ---
 ```cd ~``` or just ```cd``` --> Change directory to home directory from anywhere
 ---
+    cd - --> Go to the last working directory
+---
+    cd .. --> Change directory one step back
+---
+    cd ../..  ---> change directory two step back
+---
+    
+## Make Directory
+
+    mkdir directoryName --> To create new directory(folder)
+    mkdir -p folder/subfolder/subfolder2 --> Create parent and child directory
+
+### Example:
+
+```
+mkdir abc                                # make a new folder named 'abc'
+
+mkdir .abc                               # make a hidden directory (add . before a file to make it hidden)
+
+mkdir A B C                              # make multiple directory at same time
+
+mkdir /home/user/Mydirectory             # make a new folder in a specific location
+
+mkdir -p  A/B/C/D                        # make a nested directory
+```
+    
