@@ -2,6 +2,9 @@
 
 ```cat test.txt``` --> Read content of file on terminal
 
+```cat -n test.txt``` --> Display content with line number
+
+
 ```touch test.txt``` --> Create a empty txt file
 
 ```rm test.txt``` --> Delete/Remove file
