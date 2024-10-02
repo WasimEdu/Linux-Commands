@@ -19,10 +19,11 @@
 
 ```tail -f test.txt``` ---> It will keep the file open and display new lines as they are added.
 
-
 ```less test.txt``` --> open the file on terminal & can be read line by line (use arrows to scroll up & down)
 
 ```more test.txt``` --> writes the content of file on terminal page by page ( to move to next page need to hit space bar on keyboard )
+
+```diff new.txt test.txt``` --> Display the differance between two files
 
 ## Copy and Move
 
