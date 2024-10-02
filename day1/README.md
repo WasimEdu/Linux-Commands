@@ -45,6 +45,11 @@
     mkdir directoryName --> To create new directory(folder)
     mkdir -p folder/subfolder/subfolder2 --> Create parent and child directory
 
+## Delete Directory
+
+    rmdir directoryname --> Delete empty directory
+    rm -r directoryname --> Delete directory with content
+
 ### Example:
 
 ```
